@@ -1,4 +1,0 @@
-name        = "dev/gitignore-bundle-nodejs"
-description = "Bundle: Node.js project gitignore (base + node + test + logs)"
-params      = []
-require     = ["dev/gitignore-base", "dev/gitignore-node", "dev/gitignore-test", "dev/gitignore-logs"]

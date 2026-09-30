@@ -1,4 +1,0 @@
-name        = "dev/gitignore-bundle-full"
-description = "Bundle: Full gitignore (base + node + python + build + test + logs + secrets + ide)"
-params      = []
-require     = ["dev/gitignore-base", "dev/gitignore-node", "dev/gitignore-python", "dev/gitignore-build", "dev/gitignore-test", "dev/gitignore-logs", "dev/gitignore-secrets", "dev/gitignore-ide"]

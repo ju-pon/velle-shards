@@ -1,8 +1,0 @@
-name        = "dev/editorconfig"
-description = "Editor configuration for consistent code style across tools"
-params      = []
-
-[[file]]
-src  = "files/.editorconfig"
-dest = ".editorconfig"
-mode = "create"

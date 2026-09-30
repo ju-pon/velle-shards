@@ -1,4 +1,0 @@
-name        = "dev/git-bundle-standard"
-description = "Bundle: Standard git setup (pre-commit + gitignore base + editorconfig + gitattributes)"
-params      = []
-require     = ["dev/pre-commit", "dev/gitignore-base", "dev/editorconfig", "dev/gitattributes"]
