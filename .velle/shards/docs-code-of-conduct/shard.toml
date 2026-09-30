@@ -1,0 +1,8 @@
+name        = "docs/code-of-conduct"
+description = "Contributor Covenant Code of Conduct"
+params      = []
+
+[[file]]
+src  = "files/CODE_OF_CONDUCT.md"
+dest = "CODE_OF_CONDUCT.md"
+mode = "create"

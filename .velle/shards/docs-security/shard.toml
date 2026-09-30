@@ -1,0 +1,8 @@
+name        = "docs/security"
+description = "Security policy for reporting vulnerabilities"
+params      = []
+
+[[file]]
+src  = "files/SECURITY.md"
+dest = "SECURITY.md"
+mode = "create"

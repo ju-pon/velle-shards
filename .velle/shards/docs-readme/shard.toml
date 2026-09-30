@@ -1,0 +1,8 @@
+name        = "docs/readme"
+description = "Project README for a new repository"
+params      = ["project", "description", "license", "author", "email"]
+
+[[file]]
+src  = "files/README.md"
+dest = "README.md"
+mode = "create"

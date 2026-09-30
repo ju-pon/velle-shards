@@ -1,0 +1,8 @@
+name        = "docs/changelog"
+description = "Changelog template for project releases"
+params      = []
+
+[[file]]
+src  = "files/CHANGELOG.md"
+dest = "CHANGELOG.md"
+mode = "create"

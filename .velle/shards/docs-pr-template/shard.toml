@@ -1,0 +1,8 @@
+name        = "docs/pull-request-template"
+description = "Pull request template for consistent reviews"
+params      = []
+
+[[file]]
+src  = "files/.github/pull_request_template.md"
+dest = ".github/pull_request_template.md"
+mode = "create"

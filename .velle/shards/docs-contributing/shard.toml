@@ -1,0 +1,8 @@
+name        = "docs/contributing"
+description = "Contributor guide for a project"
+params      = ["project"]
+
+[[file]]
+src  = "files/CONTRIBUTING.md"
+dest = "CONTRIBUTING.md"
+mode = "create"
