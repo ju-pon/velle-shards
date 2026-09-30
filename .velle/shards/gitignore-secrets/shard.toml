@@ -1,0 +1,9 @@
+name        = "dev/gitignore-secrets"
+description = "Append gitignore rules for secrets and sensitive files"
+params      = []
+require     = ["dev/gitignore-base"]
+
+[[file]]
+src  = "files/.gitignore"
+dest = ".gitignore"
+mode = "append"

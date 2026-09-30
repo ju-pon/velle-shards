@@ -1,0 +1,8 @@
+name        = "dev/pre-commit"
+description = "Git pre-commit hooks configuration"
+params      = []
+
+[[file]]
+src  = "files/.pre-commit-config.yaml"
+dest = ".pre-commit-config.yaml"
+mode = "create"

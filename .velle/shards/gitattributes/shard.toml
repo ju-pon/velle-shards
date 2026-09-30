@@ -1,0 +1,8 @@
+name        = "dev/gitattributes"
+description = "Git attributes for line ending and diff handling"
+params      = []
+
+[[file]]
+src  = "files/.gitattributes"
+dest = ".gitattributes"
+mode = "create"
