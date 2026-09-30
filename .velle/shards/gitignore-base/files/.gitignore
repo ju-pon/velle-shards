@@ -1,0 +1,42 @@
+# OS artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*.lnk
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+.vim/
+.emacs.d/
+*.iml
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS temp files
+*.tmp
+*.temp
+*.bak
+*~
+.~*
+
+# General build artifacts (language-agnostic)
+build/
+dist/
+out/
+
+# Environment/dependency files (generic)
+.env
+.env.local
+.env.*.local
+.env.production.local

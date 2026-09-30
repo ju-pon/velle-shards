@@ -1,0 +1,22 @@
+
+# Compiled binaries and object files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Build outputs
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Generated code
+*.generated.*
+.gradle/
+target/

@@ -1,0 +1,8 @@
+name        = "dev/gitignore-base"
+description = "Base gitignore for common OS and editor artifacts"
+params      = []
+
+[[file]]
+src  = "files/.gitignore"
+dest = ".gitignore"
+mode = "create"

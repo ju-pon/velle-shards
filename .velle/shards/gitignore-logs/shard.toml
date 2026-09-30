@@ -1,0 +1,9 @@
+name        = "dev/gitignore-logs"
+description = "Append gitignore rules for log files"
+params      = []
+require     = ["dev/gitignore-base"]
+
+[[file]]
+src  = "files/.gitignore"
+dest = ".gitignore"
+mode = "append"

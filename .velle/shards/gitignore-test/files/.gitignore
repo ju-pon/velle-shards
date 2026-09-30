@@ -1,0 +1,13 @@
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.hypothesis/
+.nyc_output/
+coverage/
+*.lcov
+.tap/
