@@ -1,0 +1,8 @@
+name        = "license/apache-2.0"
+description = "Apache License 2.0"
+params      = ["author", "year"]
+
+[[file]]
+src  = "files/LICENSE"
+dest = "LICENSE"
+mode = "create"

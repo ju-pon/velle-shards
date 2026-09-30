@@ -1,0 +1,8 @@
+name        = "license/cc0-1.0"
+description = "Creative Commons Zero v1.0 Universal"
+params      = []
+
+[[file]]
+src  = "files/LICENSE"
+dest = "LICENSE"
+mode = "create"
