@@ -1,0 +1,18 @@
+name        = "docs/github-templates"
+description = "Issue templates and configuration for GitHub issues"
+params      = []
+
+[[file]]
+src  = "files/.github/ISSUE_TEMPLATE/config.yml"
+dest = ".github/ISSUE_TEMPLATE/config.yml"
+mode = "create"
+
+[[file]]
+src  = "files/.github/ISSUE_TEMPLATE/bug_report.md"
+dest = ".github/ISSUE_TEMPLATE/bug_report.md"
+mode = "create"
+
+[[file]]
+src  = "files/.github/ISSUE_TEMPLATE/feature_request.md"
+dest = ".github/ISSUE_TEMPLATE/feature_request.md"
+mode = "create"
