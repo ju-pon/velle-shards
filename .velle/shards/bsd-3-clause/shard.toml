@@ -1,0 +1,8 @@
+name        = "license/bsd-3-clause"
+description = "BSD 3-Clause licence"
+params      = ["author", "year"]
+
+[[file]]
+src  = "files/LICENSE"
+dest = "LICENSE"
+mode = "create"

@@ -1,0 +1,8 @@
+name        = "license/unlicense"
+description = "The Unlicense (public domain dedication)"
+params      = []
+
+[[file]]
+src  = "files/LICENSE"
+dest = "LICENSE"
+mode = "create"
