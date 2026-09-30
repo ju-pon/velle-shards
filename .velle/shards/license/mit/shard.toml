@@ -1,0 +1,9 @@
+name        = "license/mit"
+description = "the MIT license"
+params      = ["author", "year"]
+requires    = []
+
+[[file]]
+src  = "files/MIT"
+dest = "LICENSE"
+mode = "create"   # create | append | region
