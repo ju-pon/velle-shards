@@ -1,0 +1,9 @@
+name        = "dev/gitignore-ide"
+description = "Append gitignore rules for IDE-specific files and caches"
+params      = []
+require     = ["dev/gitignore-base"]
+
+[[file]]
+src  = "files/.gitignore"
+dest = ".gitignore"
+mode = "append"
