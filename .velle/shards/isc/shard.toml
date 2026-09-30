@@ -1,0 +1,8 @@
+name        = "license/isc"
+description = "ISC licence"
+params      = ["author", "year"]
+
+[[file]]
+src  = "files/LICENSE"
+dest = "LICENSE"
+mode = "create"
