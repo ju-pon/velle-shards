@@ -1,0 +1,9 @@
+name        = "single-file-shard"
+description = "shorthand for scripts wanting to create single file shards"
+params      = ["shard-name", "description", "params", "requires", "file", "mode"]
+requires    = []
+
+[[file]]
+src  = "files/template.toml"
+dest = "shard.toml"
+mode = "create"   # create | append | region

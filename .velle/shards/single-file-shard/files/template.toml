@@ -1,0 +1,9 @@
+name        = "{{shard-name}}"
+description = "{{description}}"
+params      = [{{params}}]
+requires    = [{{requires}}]
+
+[[file]]
+src  = "files/{{file}}"
+dest = "{{file}}"
+mode = "{{mode}}"

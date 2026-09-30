@@ -1,4 +1,4 @@
 name        = "docs/bundle-standard"
 description = "Standard project documentation bundle (readme + contributing + changelog + code of conduct + security)"
-params      = ["project", "description", "license", "author", "email"]
+params      = []
 require     = ["docs/readme", "docs/contributing", "docs/changelog", "docs/code-of-conduct", "docs/security"]
