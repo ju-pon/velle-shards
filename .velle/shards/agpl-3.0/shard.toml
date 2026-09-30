@@ -1,8 +1,0 @@
-name        = "license/agpl-3.0"
-description = "GNU Affero General Public License v3.0"
-params      = ["author", "year"]
-
-[[file]]
-src  = "files/LICENSE"
-dest = "LICENSE"
-mode = "create"

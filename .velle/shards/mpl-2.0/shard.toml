@@ -1,8 +1,0 @@
-name        = "license/mpl-2.0"
-description = "Mozilla Public License 2.0"
-params      = ["author", "year"]
-
-[[file]]
-src  = "files/LICENSE"
-dest = "LICENSE"
-mode = "create"

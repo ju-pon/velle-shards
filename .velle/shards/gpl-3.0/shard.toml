@@ -1,8 +1,0 @@
-name        = "license/gpl-3.0"
-description = "GNU General Public License v3.0"
-params      = ["author", "year"]
-
-[[file]]
-src  = "files/LICENSE"
-dest = "LICENSE"
-mode = "create"
