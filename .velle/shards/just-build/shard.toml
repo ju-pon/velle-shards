@@ -1,0 +1,12 @@
+name        = "just/build"
+description = "Managed build recipe region in a justfile"
+params      = ["build-cmd"]
+
+[param.build-cmd]
+scope  = "project"
+prompt = "Build command (e.g. npm run build, cargo build)"
+
+[[file]]
+src  = "files/justfile"
+dest = "justfile"
+mode = "region"

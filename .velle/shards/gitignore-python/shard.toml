@@ -1,9 +1,9 @@
 name        = "dev/gitignore-python"
-description = "Append gitignore rules for Python projects"
+description = "Managed gitignore region for Python projects"
 params      = []
 require     = ["dev/gitignore-base"]
 
 [[file]]
 src  = "files/.gitignore"
 dest = ".gitignore"
-mode = "append"
+mode = "region"

@@ -2,6 +2,26 @@ name        = "docs/readme"
 description = "Project README for a new repository"
 params      = ["project", "description", "license", "author", "email"]
 
+[param.project]
+scope  = "project"
+prompt = "Project name"
+
+[param.description]
+scope  = "project"
+prompt = "One-line project description"
+
+[param.license]
+scope  = "project"
+prompt = "License name (e.g. MIT)"
+
+[param.author]
+scope  = "profile"
+prompt = "Your full name"
+
+[param.email]
+scope  = "profile"
+prompt = "Your email address"
+
 [[file]]
 src  = "files/README.md"
 dest = "README.md"

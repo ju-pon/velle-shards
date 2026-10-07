@@ -1,9 +1,9 @@
 name        = "dev/gitignore-node"
-description = "Append gitignore rules for Node.js/npm projects"
+description = "Managed gitignore region for Node.js/npm projects"
 params      = []
 require     = ["dev/gitignore-base"]
 
 [[file]]
 src  = "files/.gitignore"
 dest = ".gitignore"
-mode = "append"
+mode = "region"

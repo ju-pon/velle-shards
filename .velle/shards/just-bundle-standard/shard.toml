@@ -1,0 +1,4 @@
+name        = "just/bundle-standard"
+description = "Bundle: Standard justfile recipes (lint + test + build) as managed regions"
+params      = []
+require     = ["just/lint", "just/test", "just/build"]

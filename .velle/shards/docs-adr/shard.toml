@@ -1,0 +1,13 @@
+name        = "docs/adr"
+description = "Architecture decision record with auto-filled date and id"
+params      = ["title", "current_date", "random_id"]
+fresh       = ["current_date", "random_id"]
+
+[param.title]
+scope  = "project"
+prompt = "ADR title"
+
+[[file]]
+src  = "files/adr.md"
+dest = "docs/adr/adr.md"
+mode = "create"

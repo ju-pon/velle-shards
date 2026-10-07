@@ -1,6 +1,11 @@
 name        = "license/agpl-3.0"
 description = "GNU Affero General Public License v3.0"
-params      = ["author", "year"]
+params      = ["author", "current_year"]
+fresh       = ["current_year"]
+
+[param.author]
+scope  = "profile"
+prompt = "Your full name"
 
 [[file]]
 src  = "files/LICENSE"

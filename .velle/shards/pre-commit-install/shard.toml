@@ -1,0 +1,7 @@
+name        = "pre-commit/install"
+description = "Install git hooks via pre-commit (includes the dev/pre-commit config)"
+params      = []
+requires    = ["dev/pre-commit"]
+
+[[run]]
+cmd = "pre-commit install"

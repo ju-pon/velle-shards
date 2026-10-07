@@ -1,9 +1,9 @@
 name        = "dev/gitignore-build"
-description = "Append gitignore rules for compiled and generated code"
+description = "Managed gitignore region for compiled and generated code"
 params      = []
 require     = ["dev/gitignore-base"]
 
 [[file]]
 src  = "files/.gitignore"
 dest = ".gitignore"
-mode = "append"
+mode = "region"

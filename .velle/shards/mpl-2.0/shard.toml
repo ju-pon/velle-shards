@@ -1,6 +1,11 @@
 name        = "license/mpl-2.0"
 description = "Mozilla Public License 2.0"
-params      = ["author", "year"]
+params      = ["author", "current_year"]
+fresh       = ["current_year"]
+
+[param.author]
+scope  = "profile"
+prompt = "Your full name"
 
 [[file]]
 src  = "files/LICENSE"

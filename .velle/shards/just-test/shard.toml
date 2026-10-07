@@ -1,0 +1,12 @@
+name        = "just/test"
+description = "Managed test recipe region in a justfile"
+params      = ["test-cmd"]
+
+[param.test-cmd]
+scope  = "project"
+prompt = "Test command (e.g. npm test, cargo test)"
+
+[[file]]
+src  = "files/justfile"
+dest = "justfile"
+mode = "region"

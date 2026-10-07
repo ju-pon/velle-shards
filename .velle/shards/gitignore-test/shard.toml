@@ -1,9 +1,9 @@
 name        = "dev/gitignore-test"
-description = "Append gitignore rules for testing and coverage artifacts"
+description = "Managed gitignore region for testing and coverage artifacts"
 params      = []
 require     = ["dev/gitignore-base"]
 
 [[file]]
 src  = "files/.gitignore"
 dest = ".gitignore"
-mode = "append"
+mode = "region"

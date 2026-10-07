@@ -1,6 +1,11 @@
 name        = "license/bsd-2-clause"
 description = "BSD 2-Clause licence"
-params      = ["author", "year"]
+params      = ["author", "current_year"]
+fresh       = ["current_year"]
+
+[param.author]
+scope  = "profile"
+prompt = "Your full name"
 
 [[file]]
 src  = "files/LICENSE"

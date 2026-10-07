@@ -1,2 +1,5 @@
-project = "Velle Shards"
+build-cmd = "b"
 description = "shards to be used with the manivelle tool"
+lint-cmd = "l"
+project = "Velle Shards"
+test-cmd = "t"

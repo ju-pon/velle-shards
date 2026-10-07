@@ -11,4 +11,4 @@ mode = "create"
 [[file]]
 src  = "files/.envrc"
 dest = ".envrc"
-mode = "append"
+mode = "region"

@@ -1,9 +1,0 @@
-name        = "README"
-description = "a typical init README.md"
-params      = ["project", "author", "email", "description", "license"]
-requires    = []
-
-[[file]]
-src  = "files/README.md"
-dest = "README.md"
-mode = "create"   # create | append | region

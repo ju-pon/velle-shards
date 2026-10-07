@@ -1,4 +1,3 @@
-
 # Secrets and sensitive data
 .env
 .env.local

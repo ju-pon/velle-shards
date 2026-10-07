@@ -1,0 +1,4 @@
+name        = "oss/bundle"
+description = "Bundle: Open-source essentials (MIT license + code of conduct + contributing + security + basic README)"
+params      = []
+require     = ["license/mit", "docs/code-of-conduct", "docs/contributing", "docs/security", "readme/basic"]

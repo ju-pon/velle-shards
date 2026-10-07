@@ -1,0 +1,12 @@
+name        = "just/lint"
+description = "Managed lint recipe region in a justfile"
+params      = ["lint-cmd"]
+
+[param.lint-cmd]
+scope  = "project"
+prompt = "Lint command (e.g. npm run lint, cargo clippy)"
+
+[[file]]
+src  = "files/justfile"
+dest = "justfile"
+mode = "region"

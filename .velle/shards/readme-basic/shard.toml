@@ -1,0 +1,24 @@
+name        = "readme/basic"
+description = "Minimal README scaffold with smart parameter defaults"
+params      = ["project", "description", "author", "license"]
+
+[param.project]
+scope  = "project"
+prompt = "Project name"
+
+[param.description]
+scope  = "project"
+prompt = "One-line project description"
+
+[param.author]
+scope  = "profile"
+prompt = "Your full name"
+
+[param.license]
+scope   = "project"
+default = "MIT"
+
+[[file]]
+src  = "files/README.md"
+dest = "README.md"
+mode = "create"
