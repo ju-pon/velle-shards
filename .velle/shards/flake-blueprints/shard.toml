@@ -1,0 +1,14 @@
+name        = "flake-blueprints"
+description = "a flake using nix-community/blueprints"
+params      = ["nix-version", "packages"]
+requires    = []
+
+[[file]]
+src  = "files/flake.nix"
+dest = "flake.nix"
+mode = "create"
+
+[[file]]
+src  = "files/devshells/default.nix"
+dest = "devshells/default.nix"
+mode = "create"
